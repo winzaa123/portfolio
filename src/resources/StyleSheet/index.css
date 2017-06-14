@@ -1,0 +1,41 @@
+.App {
+  text-align: center; }
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px; }
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white; }
+
+.App-intro {
+  font-size: large; }
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+
+.input-lg-live-search {
+  background: white;
+  position: absolute;
+  width: 48%;
+  z-index: 1;
+  max-height: 300px;
+  overflow-y: auto;
+  margin-top: 54px;
+  border: 1px solid #dbdbdb;
+  border-top-width: 0; }
+  .input-lg-live-search .input-lg-live-search-list {
+    cursor: pointer; }
+  .input-lg-live-search .input-lg-live-search-list .card-content {
+    padding: .5rem; }
+  .input-lg-live-search .input-lg-live-search-list:hover {
+    background: #e8e8e8; }
+
+.field.has-addons .control {
+  width: 100%; }

@@ -1,0 +1,25 @@
+.input-lg-live-search{
+            background: white;
+            position: absolute;
+                width: 48%;
+                z-index: 1;
+                max-height: 300px;
+                overflow-y: auto;
+                margin-top: 54px;
+                border: 1px solid #dbdbdb;
+                border-top-width: 0;
+    .input-lg-live-search-list{
+        cursor:pointer; 
+    }
+    .input-lg-live-search-list .card-content{
+        padding: .5rem;
+    }
+    .input-lg-live-search-list:hover{
+        background: #e8e8e8;
+
+    }
+}
+.field.has-addons .control {
+ 
+    width: 100%;
+}
