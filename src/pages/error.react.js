@@ -2,7 +2,7 @@ import React from 'react'
 
 //   import { fetchRepository } from 'api'
 
-class error_page extends React.Component {
+export class error_page extends React.Component {
 
     render() {
         
@@ -14,7 +14,7 @@ class error_page extends React.Component {
         )
     }
 }
-class error_page_repo extends React.Component {
+export class error_page_repo extends React.Component {
 
     render() {
         
@@ -25,9 +25,4 @@ class error_page_repo extends React.Component {
             </div>
         )
     }
-}
-
-module.exports = {
-    error_page: error_page,
-    error_page_repo: error_page_repo
 }
